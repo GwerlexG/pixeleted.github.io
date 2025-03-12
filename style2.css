@@ -1,0 +1,194 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #0a1326;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.group{
+    display: flex;
+    gap: 5px;
+    flex-wrap:wrap;
+    width: 655px;
+}
+.group-back{
+    width: 800px;
+    height: 800px;
+    background-image: url(/элементы/back3.png);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.tile{
+    width: 50px;
+    height: 50px;
+    background-color: #FFF1E8;
+}
+.tile:hover{
+    opacity: 0.9;
+}
+.pallete{
+    display: flex;
+    flex-wrap:wrap;
+    margin-right: 200px;
+    gap: 5px;
+    width: 175px;
+    height: 175px;
+    background-image: url(/элементы/pallete-back4.png);
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.color{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    outline: 5px solid transparent;
+/* border: 5px solid transparent; 
+    box-sizing: border-box;
+*/
+}
+.color:hover{
+    opacity: 0.9;
+    outline: 5px solid gray;
+/*    border: 5px solid gray; */
+}
+.black{
+    background-color: #000000;
+}
+.dark_blue{
+    background-color: #1D2B53;
+}
+.red_violet{
+    background-color: #7E2553;
+}
+.dark_green{
+    background-color: #008751;
+}
+.brown{
+    background-color:#AB5236;
+}
+.dark_gray{
+    background-color: #5F574F;
+}
+.gray{
+    background-color: #C2C3C7;
+}
+.white{
+    background-color: #FFF1E8;
+}
+.red{
+    background-color: #FF004D;
+}
+.orange{
+    background-color: #FFA300;
+}
+.yellow{
+    background-color: #FFEC27;
+}
+.green{
+    background-color: #00E436;
+}
+.blue{
+    background-color: #29ADFF;
+}
+.lilac{
+    background-color: #83769C;
+}
+.pink{
+    background-color: #FF77A8;
+}
+.beige{
+    background-color: #FFCCAA;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/элементы/tools_background2.png);
+    width: 88px;
+    padding: 20px;
+    height: 600px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.tools_top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tool{
+    width: 88px;
+    height: 88px;
+}
+.pen{
+    width: 88px;
+    height: 96px;
+    background-image: url('/элементы/pen.png');
+    background-size: 88px 88px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.pen:hover{
+    background-image: url('/элементы/pen2.png');
+    width: 88px;
+    height: 96px;
+    background-size: cover; 
+}
+.eraser{
+    width: 88px;
+    height: 96px;
+    background-image: url('/элементы/eraser.png');
+    background-size: 88px 88px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eraser:hover{
+    background-image: url('/элементы/eraser2.png');
+    width: 88px;
+    height: 96px;
+    background-size: cover; 
+}
+.bucket{
+    width: 88px;
+    height: 96px;
+    background-image: url('/элементы/bucket.png');
+    background-size: 88px 88px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.bucket:hover{
+    background-image: url('/элементы/bucke2t.png');
+    width: 88px;
+    height: 96px;
+    background-size: cover; 
+}
+.download{
+    width: 88px;
+    height: 96px;
+    background-image: url('/элементы/download.png');
+    background-size: 88px 88px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.download:hover{
+    background-image: url('/элементы/download2.png');
+    width: 88px;
+    height: 96px;
+    background-size: cover; 
+}
+
+.download-img{
+    width: 88px;
+    height: 88px;
+}
+
