@@ -18,7 +18,7 @@ body {
 .group-back{
     width: 800px;
     height: 800px;
-    background-image: url(/pixeleted/элементы/back3.png);
+    background-image: url('/элементы/back3.png');
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -40,7 +40,7 @@ body {
     gap: 5px;
     width: 175px;
     height: 175px;
-    background-image: url(/pixeleted/элементы/pallete-back4.png);
+    background-image: url('/элементы/pallete-back4.png');
     justify-content: center;
     align-items: center;
     padding: 40px;
@@ -111,7 +111,7 @@ body {
 .tools{
     display: flex;
     flex-direction: column;
-    background-image: url(/pixeleted/элементы/tools_background2.png);
+    background-image: url('/элементы/tools_background2.png');
     width: 88px;
     padding: 20px;
     height: 600px;
@@ -130,14 +130,14 @@ body {
 .pen{
     width: 88px;
     height: 96px;
-    background-image: url('/pixeleted/элементы/pen.png');
+    background-image: url('/элементы/pen.png');
     background-size: 88px 88px; 
     background-repeat: no-repeat;
     background-position: center;
     
 }
 .pen:hover{
-    background-image: url('/pixeleted/элементы/pen2.png');
+    background-image: url('/элементы/pen2.png');
     width: 88px;
     height: 96px;
     background-size: cover; 
@@ -145,13 +145,13 @@ body {
 .eraser{
     width: 88px;
     height: 96px;
-    background-image: url('/pixeleted/элементы/eraser.png');
+    background-image: url('/элементы/eraser.png');
     background-size: 88px 88px; 
     background-repeat: no-repeat;
     background-position: center;
 }
 .eraser:hover{
-    background-image: url('/pixeleted/элементы/eraser2.png');
+    background-image: url('/элементы/eraser2.png');
     width: 88px;
     height: 96px;
     background-size: cover; 
@@ -159,14 +159,14 @@ body {
 .bucket{
     width: 88px;
     height: 96px;
-    background-image: url('/pixeleted/элементы/bucket.png');
+    background-image: url('/элементы/bucket.png');
     background-size: 88px 88px; 
     background-repeat: no-repeat;
     background-position: center;
     
 }
 .bucket:hover{
-    background-image: url('/pixeleted/элементы/bucke2t.png');
+    background-image: url('/элементы/bucke2t.png');
     width: 88px;
     height: 96px;
     background-size: cover; 
@@ -174,14 +174,14 @@ body {
 .download{
     width: 88px;
     height: 96px;
-    background-image: url('/pixeleted/элементы/download.png');
+    background-image: url('/элементы/download.png');
     background-size: 88px 88px; 
     background-repeat: no-repeat;
     background-position: center;
     
 }
 .download:hover{
-    background-image: url('/pixeleted/элементы/download2.png');
+    background-image: url('/элементы/download2.png');
     width: 88px;
     height: 96px;
     background-size: cover; 
