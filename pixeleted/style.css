@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap');
+body{
+    font-family: "Press Start 2P", serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+.firstscreen{
+    background-image: url("https://art.pixilart.com/6e44ee7ec600298.png");
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+.discription-txt{
+    font-size: 25px;
+    color: #ffccaa;
+}
+.default-txt{
+    font-size: 20px;
+    color: #ffccaa;
+}
+.start-div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.start-arrow{
+    width: 70px;
+    height: 60px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.arrow3{
+    width: 40px;
+    height: 40px;
+    margin-top:15px;
+}
+.start-btn{
+    width: 366px;
+    height: 114px;
+    margin-top:10px;
+}
+.gallery_btn{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top:450px;
+}
